@@ -1,0 +1,72 @@
+body {
+background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenN1cXJvY3doaDZxZjdydjdoa29nY2M2eXZvaTJ1ZHgzb2o0ejFlbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.webp');
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box div {
+    width: 100px;
+    height: 100px; }
+
+#asi {
+    background-color: rgb(183, 108, 108);
+    width: 250px;
+    height: 265px;
+    border-radius: 50% 20% / 10% 40%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
+  
+    }
+button {
+    margin-top: 130px;
+    margin-left: -300px;
+    background-color: red;
+    border-color: white;
+    border-radius: 60px;
+    transition: 0.3s;
+
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+.topnav {
+    background-color: #b79999;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #8a3333;
+    color: black;
+  }
+  
+ 
+  .topnav a.active {
+    background-color: #5e6c66;
+    color: white;
+  }
